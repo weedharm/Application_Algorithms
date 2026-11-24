@@ -1,5 +1,7 @@
-## Luyện tập thuật toán ứng dụng trên website codeforces trường ĐHBKHN kì 20201
+# TTUD_Codeforces
 
-Đề bài của các traning được đặt trong thư mục `problems`. Lời giải của các traning tương ứng với 2 chữ số đầu tiên thể hiện cho số của traning đó và tên kèm phía sau là tên của bài trong traning đó.
+Solutions to the training sets of the Applied Algorithms course (Thuật toán ứng dụng) at Hanoi University of Science and Technology (HUST), semester 20201, submitted on the course's Codeforces group.
 
-Ví dụ: lời giải `01ADD.cpp` là lời giải của bài `ADD` nằm trong traning 1
+The problem statements of each training set are in [`problems/`](problems). The first two digits of a solution file give the training set number, and the rest is the problem name. For example, `01ADD.cpp` solves problem `ADD` of training set 1.
+
+See the [repository README](../README.md) for an index of all problems.
