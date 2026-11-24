@@ -26,7 +26,7 @@ void input(){
     cin >> s >> t;
 }
 
-long long dijkstra(){
+void dijkstra(){
     priority_queue<pair<long long, long long>, vector< pair<long long, long long> >, compare> q;
     long long dist[MAX];
 
@@ -54,7 +54,8 @@ long long dijkstra(){
         }
     }
 
-    cout << dist[t];
+    if(dist[t] == 1e9) cout << -1; // no path from s to t
+    else cout << dist[t];
 }
 
 int main(){
