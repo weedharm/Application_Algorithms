@@ -30,7 +30,7 @@ void solve(){
         int x = q.front(); q.pop();
 
         for(int v : vt[x]){
-            if(dist[v] = -1){
+            if(dist[v] == -1){
                 dist[v] = dist[x] + 1;
                 q.push(v);
             }
