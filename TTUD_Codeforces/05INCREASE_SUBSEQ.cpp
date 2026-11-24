@@ -17,7 +17,7 @@ void solve(){
     S[0] = 1;
     res = S[0];
 
-    for(int i=1; i<n-1; i++){
+    for(int i=1; i<n; i++){
         S[i] = 1;
 
         for(int j=0; j<i; j++){
