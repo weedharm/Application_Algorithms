@@ -1,0 +1,14 @@
+# Compiled binaries and objects
+*.exe
+*.out
+*.o
+*.obj
+a.out
+# Local test data
+*.INP
+*.OUT
+# Editor / OS files
+.vscode/
+.idea/
+.ipynb_checkpoints/
+.DS_Store
