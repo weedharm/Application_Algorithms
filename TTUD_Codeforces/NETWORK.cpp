@@ -134,7 +134,7 @@ void solve(){
      cout << S[r] << endl;
 }
 int main(){
-    freopen("NETWORKS11.INP","r",stdin);
+    // freopen("NETWORKS11.INP","r",stdin); // local test file, not in the repo
     input();
     //print();
     solve();
